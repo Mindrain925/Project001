@@ -377,6 +377,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slot: {fileID: 0}
   attachedBattleSkillGUI: {fileID: 0}
+  slotAtkText: {fileID: 5095915244060428058}
+  slotDefText: {fileID: 27199188373798414}
 --- !u!1 &2406556638941269573
 GameObject:
   m_ObjectHideFlags: 0

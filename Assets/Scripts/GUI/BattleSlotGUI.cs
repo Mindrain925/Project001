@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEditor.ShaderKeywordFilter;
 using UnityEngine;
@@ -18,10 +19,19 @@ IPointerDownHandler
         get { return isAttached;} 
         set { isAttached = value; }
     }
+    [SerializeField] TextMeshProUGUI slotAtkText;
+    [SerializeField] TextMeshProUGUI slotDefText;
 
-
-    private void Awake() {
+    private void Start() {
         rectTransform = GetComponent<RectTransform>();    
+
+        // Set Slot State UI, if slot is not null
+        //* Because BattleSlotGUI initializeing is later than Slot initializing,
+        //* this code should be in Start() : not Awake()
+        if (slot != null){
+            slotAtkText.text = slot.combatATK.ToString();
+            slotDefText.text = slot.combatDEF.ToString();
+        }
     }
 
     //This code is about skill attaching
