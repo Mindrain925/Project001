@@ -511,6 +511,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BattleSlotGUIPrefab (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1921151866924516903, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -525,7 +529,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_AnchorMin.x
@@ -533,7 +537,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_SizeDelta.x
@@ -573,11 +577,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 551.88
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -53.76945
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1647,9 +1651,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1520968329}
     m_Modifications:
+    - target: {fileID: 1166569056964155490, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1822864325480552101, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1921151866924516903, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_Name
       value: BattleSlotGUIPrefab (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921151866924516903, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_Pivot.x
@@ -1665,7 +1681,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_AnchorMin.x
@@ -1673,7 +1689,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1713,11 +1729,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 371.88
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -53.76945
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3772,9 +3788,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1520968329}
     m_Modifications:
+    - target: {fileID: 1166569056964155490, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1822864325480552101, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1921151866924516903, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_Name
       value: BattleSlotGUIPrefab (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921151866924516903, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_Pivot.x
@@ -3790,7 +3818,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_AnchorMin.x
@@ -3798,7 +3826,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_SizeDelta.x
@@ -3838,11 +3866,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 461.88
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -53.76945
       objectReference: {fileID: 0}
     - target: {fileID: 3242109318803220444, guid: 913b31fb2df70834885d6f9286f7a729, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
