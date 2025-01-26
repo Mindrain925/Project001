@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e33e50b0fe98bcc4fba721b6ff4ac4d5, type: 3}
+  m_Name: SoraYuriDialogueCharacterData
+  m_EditorClassIdentifier: 
+  firstName: "\uC720\uB9AC"
+  lastName: "\uC18C\uB77C"
+  idlePortrait: {fileID: 1711301039267450611, guid: c7e3c2552239fb549838974c8d6615fb, type: 3}
+  madPortrait: {fileID: -2052829636318667963, guid: 73bf3e34f2f20644287f8c92695389b3, type: 3}
+  sadPortrait: {fileID: -4286031889940645204, guid: fd5d954e562cb1e4fa90f26dcca90a98, type: 3}
+  sighPortrait: {fileID: -4814807580828225904, guid: 64f22931d87194b49aadcb48eb690a4e, type: 3}
+  smirkPortrait: {fileID: 4341998065739057160, guid: dca96f52779be5c488314626bd5b45c3, type: 3}

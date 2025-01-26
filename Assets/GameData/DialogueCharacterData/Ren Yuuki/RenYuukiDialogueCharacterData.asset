@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e33e50b0fe98bcc4fba721b6ff4ac4d5, type: 3}
+  m_Name: RenYuukiDialogueCharacterData
+  m_EditorClassIdentifier: 
+  firstName: "\uC720\uC6B0\uD0A4"
+  lastName: "\uB80C"
+  idlePortrait: {fileID: 5914210362830923099, guid: 0a1281a4f14515843b2ef9118b6a9f0b, type: 3}
+  madPortrait: {fileID: 7814254389650151031, guid: 0eb5050e7a405ab4e9e860b5cbf0ebdf, type: 3}
+  sadPortrait: {fileID: -636840563521087965, guid: f792a19262f2b8c4484ec70a5fd69bd5, type: 3}
+  sighPortrait: {fileID: -7467578858041710553, guid: 65983216c44baed4e83e7ecad67d15d0, type: 3}
+  smirkPortrait: {fileID: 3544879010124327587, guid: 642dd66950ca08c40824fff774588fd5, type: 3}
