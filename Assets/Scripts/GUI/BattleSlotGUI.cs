@@ -44,7 +44,7 @@ IPointerDownHandler
             && !isAttached 
             && gameObject.CompareTag("MyBattleSlotGUI")) {
             //* This may causes coupling with BattleSkillGUI
-            eventData.pointerDrag.GetComponent<CanvasGroup>().blocksRaycasts = false;
+            // eventData.pointerDrag.GetComponent<CanvasGroup>().blocksRaycasts = true;
             
             eventData.pointerDrag.GetComponent<BattleSkillGUI>().previousSlot = gameObject;
             eventData.pointerDrag.transform.SetParent(transform);
@@ -58,7 +58,9 @@ IPointerDownHandler
 
     //This code is about showing skill info
     public void OnPointerDown(PointerEventData eventData){
-        BattleSlotInfoModalManager.Instance.Execute(gameObject);
+        if (Input.GetMouseButtonDown(0)){
+            BattleSlotInfoModalManager.Instance.Execute(gameObject);
+        }
     }
 
     // //This code is about showing the info of Slot

@@ -68,6 +68,7 @@ IPointerEnterHandler, IPointerExitHandler
         if (transform.parent == canvas.transform){
             transform.SetParent(previousSlot.transform);
             rectTransform.position = previousSlot.GetComponent<RectTransform>().position;
+            canvasGroup.blocksRaycasts = true;
         }
         else{
             SoundEffectManager.Instance.Play(slotEffectSound);
@@ -86,8 +87,11 @@ IPointerEnterHandler, IPointerExitHandler
 
     public void OnPointerEnter(PointerEventData eventData){
         //This may causes coupling
-
+        // 마우스 왼쪽 버튼이 눌렸는지 확인
+        // BattleSkillInfoModalManager 실행
         BattleSkillInfoModalManager.Instance.Execute(gameObject);
+
+        // 주석 처리된 코드 필요 시 활성화 가능
         // isClicking = true;
         // clickCoroutine = StartCoroutine(StartClick());
     }
