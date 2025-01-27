@@ -10,12 +10,29 @@ public class DialogueCharacterData : ScriptableObject
     [SerializeField] Sprite sadPortrait;
     [SerializeField] Sprite sighPortrait;
     [SerializeField] Sprite smirkPortrait;
+    [SerializeField] AudioClip chatEffectSound;
 
     public string FirstName => firstName;
     public string LastName => lastName;
-    public Sprite IdlePortrait => idlePortrait;
-    public Sprite MadPortrait => madPortrait;
-    public Sprite SadPortrait => sadPortrait;
-    public Sprite SighPortrait => sighPortrait;
-    public Sprite SmirkPortrait => smirkPortrait;
+    // Method to get a sprite based on a type
+    public Sprite GetSprite(string spriteType)
+    {
+        switch (spriteType)
+        {
+            case "Idle":
+                return idlePortrait;
+            case "Mad":
+                return madPortrait;
+            case "Sad":
+                return sadPortrait;
+            case "Sigh":
+                return sighPortrait;
+            case "Smirk":
+                return smirkPortrait;
+            default:
+                Debug.LogError($"Sprite type \"{spriteType}\" not recognized. Returning idlePortrait as default.");
+                return idlePortrait;
+        }
+    }
+    public AudioClip ChatEffectSound => chatEffectSound;
 }

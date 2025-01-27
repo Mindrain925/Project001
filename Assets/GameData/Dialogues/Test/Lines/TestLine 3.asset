@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: TestLine 3
   m_EditorClassIdentifier: 
   type: Line
-  dialogueCharacterData: {fileID: 11400000, guid: d655a78d143e74044b7f853ec30f757a, type: 2}
-  portraitType: 
-  content: "\uC544 \uADF8\uB824\uC11C? \u314B"
+  dialogueCharacterData: {fileID: 11400000, guid: 8bca3ab5fd7a7264eb541679598d90ce, type: 2}
+  portraitType: Sigh
+  content: "\uAE30\uACC4\uAC00 \uC5BC\uB9C8\uB098 \uC911\uC694\uD55C\uAC74\uB370,
+    \uC870\uC2EC\uD788 \uB2E4\uB904\uC57C\uC9C0"

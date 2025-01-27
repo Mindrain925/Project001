@@ -19,3 +19,4 @@ MonoBehaviour:
   sadPortrait: {fileID: -636840563521087965, guid: f792a19262f2b8c4484ec70a5fd69bd5, type: 3}
   sighPortrait: {fileID: -7467578858041710553, guid: 65983216c44baed4e83e7ecad67d15d0, type: 3}
   smirkPortrait: {fileID: 3544879010124327587, guid: 642dd66950ca08c40824fff774588fd5, type: 3}
+  chatEffectSound: {fileID: 8300000, guid: 5abd7e3296e5d094daff92bd299e9f6f, type: 3}

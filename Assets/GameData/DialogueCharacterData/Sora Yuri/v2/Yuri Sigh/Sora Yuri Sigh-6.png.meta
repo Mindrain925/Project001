@@ -103,12 +103,12 @@ TextureImporter:
       name: Sora Yuri Sigh-6_0
       rect:
         serializedVersion: 2
-        x: 15
+        x: 0
         y: 0
-        width: 226
-        height: 241
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ea0a19289279bfd4f9ca35bd83369981
     internalID: 0
     vertices: []
     indices: 
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sora Yuri Sigh-6_0: -4814807580828225904
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

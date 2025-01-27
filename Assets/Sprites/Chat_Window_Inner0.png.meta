@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4469dd520ae99f24db9df89b29e967c1
+guid: 3207975c6df786242a4bdc1ab4ad05c4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3317292079434633816
-    second: Chat_Window-1.png_0
+      213: 6717936547254249900
+    second: Chat_Window_Inner0_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Chat_Window-1.png_0
+      name: Chat_Window_Inner0_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8521bea0293690e20800000000000000
-      internalID: 3317292079434633816
+      spriteID: ca924b252b7ea3d50800000000000000
+      internalID: 6717936547254249900
       vertices: []
       indices: 
       edges: []

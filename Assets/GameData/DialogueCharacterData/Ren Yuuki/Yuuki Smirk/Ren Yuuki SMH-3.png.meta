@@ -103,12 +103,12 @@ TextureImporter:
       name: Ren Yuuki SMH-3_0
       rect:
         serializedVersion: 2
-        x: 39
+        x: 0
         y: 0
-        width: 170
-        height: 249
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a83b5cd38a5e9814fa40ff8a4ff132c0
     internalID: 0
     vertices: []
     indices: 
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ren Yuuki SMH-3_0: 3544879010124327587
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

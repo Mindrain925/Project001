@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: TestCutScene
   m_EditorClassIdentifier: 
   type: CutScene
-  cutSceneSprite: {fileID: 0}
+  cutSceneSprite: {fileID: 1208040086343421634, guid: 7096ed99e411f2949b511b4882e684ed, type: 3}

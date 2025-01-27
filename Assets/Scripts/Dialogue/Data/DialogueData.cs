@@ -8,8 +8,9 @@ public class DialogueData : ScriptableObject
 {
     [SerializeField] List<string> participatorsNames = new List<string>();
     [SerializeField] List<DialogueEventData> events = new List<DialogueEventData>();
+    [SerializeField] Sprite dialogueBackgroundSprite;
 
     public List<string> ParticipatorsNames => participatorsNames;
-
     public List<DialogueEventData> Events => events;
+    public Sprite DialougeBackgroundSprite => dialogueBackgroundSprite;
 }

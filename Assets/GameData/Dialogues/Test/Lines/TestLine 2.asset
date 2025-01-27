@@ -14,6 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: Line
   dialogueCharacterData: {fileID: 11400000, guid: 8bca3ab5fd7a7264eb541679598d90ce, type: 2}
-  portraitType: 
-  content: "\uB2F9\uC5F0\uD55C\uAC70\uC544\uB2C8\uC57C? \uAE30\uACC4 \uB355\uBD84\uC5D0
-    \uC6B0\uB9AC \uC778\uB958\uAC00 \uC5BC\uB9C8\uB098 \uBC1C\uC804\uD588\uB294\uB370!"
+  portraitType: Idle
+  content: "\uBB54 \uC18C\uB9AC\uB97C \uD558\uB294\uAC70\uC57C?"

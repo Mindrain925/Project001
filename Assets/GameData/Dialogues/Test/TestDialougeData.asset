@@ -16,8 +16,10 @@ MonoBehaviour:
   - "\uC720\uC6B0\uD0A4"
   - "\uC720\uB9AC"
   events:
-  - {fileID: 11400000, guid: 3c412a8a2d408a24090a0e5e0d0ebc23, type: 2}
   - {fileID: 11400000, guid: e4c0cb03bb1e765418270197833f2371, type: 2}
+  - {fileID: 11400000, guid: 3c412a8a2d408a24090a0e5e0d0ebc23, type: 2}
   - {fileID: 11400000, guid: 8e655b8a9f7c18247afe82720b6f882f, type: 2}
   - {fileID: 11400000, guid: e562f88ef867632498a0daa67db1901b, type: 2}
+  - {fileID: 11400000, guid: 2dfeac2feca2f7845a313b51a2894f4a, type: 2}
   - {fileID: 11400000, guid: dd04f47021c1c814f835039a71e64c1b, type: 2}
+  dialogueBackgroundSprite: {fileID: -3448547797422330063, guid: d5817d3ccfce1464b8c4367789990574, type: 3}
