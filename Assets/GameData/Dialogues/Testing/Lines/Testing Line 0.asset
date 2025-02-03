@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b0ac9160864ec4f8ee22508c4252bf, type: 3}
+  m_Name: Testing Line 0
+  m_EditorClassIdentifier: 
+  type: Line
+  dialogueCharacterData: {fileID: 11400000, guid: 8bca3ab5fd7a7264eb541679598d90ce, type: 2}
+  portraitType: Idle
+  content: "\uADF8\uB7FC\u2026 \uC774\uC81C \uC5B4\uB5BB\uAC8C \uD560 \uAC70\uC57C?"

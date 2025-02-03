@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -73,7 +74,7 @@ public class BattleFieldManager : MonoBehaviour
 
             battleFieldCharacter.Initialize();
 
-            //innitiate the protagonists slots
+            //initiate the protagonists slots
             foreach (var battleSlotDatum in battleFieldCharacter.battleSlotsData){
                 var battleSlotGUI = Instantiate(battleSlotGUIPrefab);
                 battleSlotGUI.transform.SetParent(protagonistBattleSlotsGUIContainer.transform);
@@ -118,12 +119,33 @@ public class BattleFieldManager : MonoBehaviour
 
         wave = 0;
 
+        StartCoroutine(DeleteGridGroupLayout());
+
         StartWave();
+    }
+
+    // ! This is a temporal function. Needs to be refactored
+    IEnumerator DeleteGridGroupLayout(){
+        yield return null;
+
+        if (protagonistBattleSlotsGUIContainer == null) {
+            Debug.LogWarning("오브젝트가 이미 삭제됨");
+            yield break;
+        }
+
+        GridLayoutGroup layout = protagonistBattleSlotsGUIContainer.GetComponent<GridLayoutGroup>();
+        if (layout == null) {
+            Debug.LogWarning("GridLayoutGroup이 이미 제거됨");
+            yield break;
+        }
+
+        Destroy(layout);
+        Debug.Log("GridLayoutGroup 삭제됨");
     }
 
     public void EndBattle(){
 
-        //TODO : Check if some   data were changed and reflect them
+        //TODO : Check if some data were changed and reflect them
 
         Debug.Log("The Battle was ended");
     }

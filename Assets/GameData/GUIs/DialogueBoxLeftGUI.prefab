@@ -524,8 +524,8 @@ MonoBehaviour:
     accumsan dolor eget feugiat. Cras nunc elit, faucibus a finibus eget, venenatis
     sed ipsum. Sed pulvinar mi at euismod tempor.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7e5df06a5a7986747938a0ef61958a48, type: 2}
-  m_sharedMaterial: {fileID: 340332516485636074, guid: 7e5df06a5a7986747938a0ef61958a48, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 19cc926ed8f042845b2c4f6a2992b2ad, type: 2}
+  m_sharedMaterial: {fileID: -3620351499837012446, guid: 19cc926ed8f042845b2c4f6a2992b2ad, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

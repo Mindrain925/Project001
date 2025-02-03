@@ -29,6 +29,8 @@ public class BattleSlotInfoModalManager : MonoBehaviour
     {
         battleSlotModal.transform.GetChild(0).gameObject.SetActive(true); // The activated GameObejct must be 'Panel'
 
+        // Set the parent of selected BattleSlot battleSlotModal
+
         battleSlotInfoModalPanel.SetBattleSlotStateText(battleSlotGUI);
 
         // BattleSkillInfoModalManager.Instance.Execute(battleSlotGUI.GetComponent<BattleSlotGUI>().attachedBattleSkillGUI.GetComponent<BattleSkillGUI>().)
