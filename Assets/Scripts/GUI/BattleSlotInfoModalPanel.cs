@@ -17,8 +17,15 @@ public class BattleSlotInfoModalPanel : MonoBehaviour
     [SerializeField] private GameObject UnslotSkillButton;
     private Transform previousParent;
     private GameObject battleSlotGUI;
+    private bool isOpen = false;
 
     public void SetBattleSlotStateText(GameObject _battleSlotGUI){
+        if (isOpen){
+            return;
+        }
+
+        isOpen = true;
+
         battleSlotGUI = _battleSlotGUI;
         battleSlotGUIScript = battleSlotGUI.GetComponent<BattleSlotGUI>();
 
@@ -44,9 +51,9 @@ public class BattleSlotInfoModalPanel : MonoBehaviour
 
     public void ClosePanel(){
         gameObject.SetActive(false);
+        isOpen = false;
 
         battleSlotGUI.transform.SetParent(previousParent);
-
         BattleSkillInfoModalManager.Instance.Close();
     }
 
