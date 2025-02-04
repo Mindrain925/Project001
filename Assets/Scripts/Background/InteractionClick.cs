@@ -8,6 +8,8 @@ public abstract class InteractionClick : MonoBehaviour, IPointerClickHandler
     // 여러 개의 상호작용 타입을 저장
     // 굳이 리스트로 저장할 필요가 있을까
     protected string interactionType;
+    [SerializeField] public bool isLocked = false;
+    
 
     // 클릭 시 실행될 추상 메서드
     public abstract void OnInteractionClick();
@@ -21,9 +23,18 @@ public abstract class InteractionClick : MonoBehaviour, IPointerClickHandler
     // IPointerClickHandler 인터페이스 구현
     public void OnPointerClick(PointerEventData eventData)
     {
-        // 클릭하면 OnInteractionClick() 실행
-        OnInteractionClick();
-        Debug.Log("Interaction Type: " + interactionType);
+        if (isLocked)
+        {
+            Debug.Log("This object is locked.");
+            return;
+        }
+        else
+        {
+            // 클릭하면 OnInteractionClick() 실행
+            OnInteractionClick();
+            Debug.Log("Interaction Type: " + interactionType);
+        }
+        
     }
 }
 
