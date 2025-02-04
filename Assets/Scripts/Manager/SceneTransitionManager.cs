@@ -21,11 +21,6 @@ public class SceneTransitionManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    private void Start()
-    {
-        StartCoroutine(FadeIn());
-    }
-
     public void LoadScene(string sceneName)
     {
         StartCoroutine(Transition(sceneName));
@@ -33,9 +28,12 @@ public class SceneTransitionManager : MonoBehaviour
 
     private IEnumerator Transition(string sceneName)
     {
+        Canvas canvas = GetComponent<Canvas>();
+        canvas.sortingOrder = 100;
         yield return StartCoroutine(FadeOut());
         SceneManager.LoadScene(1); // ! Change the argument to sceneName. if it's not for testing
         yield return StartCoroutine(FadeIn());
+        canvas.sortingOrder = -1;
     }
 
     private IEnumerator FadeOut()
